@@ -1,0 +1,6 @@
+HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+for(int k = 1; k < 255; k++)
+{
+  SetConsoleTextAttribute(hConsole, 10);
+	cout << k << " I want to be nice today!" << endl;
+}
